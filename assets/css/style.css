@@ -2766,4 +2766,9 @@ p:last-child {
   .artist-bio__content {
     font-size: var(--font-size-base);
   }
+
+  /* Artist page discography grid - 2 columns on mobile */
+  .album-section .grid.grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
